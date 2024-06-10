@@ -1,0 +1,170 @@
+variable declaration
+
+javaScript Reserved Word
+
+var,let,const
+var ka globel use lo ya error myr lo 
+
+let email; (value = undefined)
+let email = "page@gmail.com"; (String)
+
+>.< fact 1
+const email; (wrong)
+const email = "page@gmail.com"; (correct)
+
+>.< fact 2 
+let email = "page@gmail.com";
+email = "page1@gmail.com"; (can upgrade)
+but const can't.
+
+>.< fact 3
+const city = "Yangon"
+city = "Mandalay" X wrong
+and then type city and check output
+
+
+// comment -> single line comment
+/* comment */ -> multiline comment
+
+
+Let,COnst ->Wrong
+
+rule for declare variable
+
+a to z or _ or $ nae sa lo ya
+number nk sa lo ma ya
+kyar mr space khan lo ma ya
+reserved word tawe ko use lo ma ya
+
+eg correct -> car , redCar.
+eg wrong -> red car , 1car X
+
+//Arithmetic operators
+// + (Addition)
+
+let num1 = 2;
+let num2 = 3;
+let num3 = num1 + num2; 
+//num3 = 5
+
+let str1 = "hello"
+let str2 = "world"
+let str3 = str1+str2 // str3 = "helloworld"
+let str3 = str1 + " " + str3 // str3 = "hello world"
+
+// - (Subtraction)
+
+let num1 = 2;
+let num2 = 3;
+let num3 = num1 - num2 // num3 = -1
+
+// * (Multiplication)
+
+let num1 = 2;
+let num2 = 5;
+let num3 = num1 * num5 // num3 = 10
+
+// / (Divison)
+
+let num1 = 6;
+let num2 = 3;
+let num3 = num1 / num2 
+  //num3 = 2
+
+// ** (Exponent)
+
+let num1 = 6;
+let num2 = 3;
+let num3 = num1 ** num2 //num3 = 216
+
+
+/* Increment and decrement */
+// ++
+let num1 = 1;
+let num2 = num1++ // num2 = 2
+
+const num2 = 1;
+num2 ++;
+
+// -- 
+let num1 = 1;
+let num2 = num1-- // num2 = 0
+
+//cannot do 1++ for example,must use a variable that is not constant(const)
+
+/* Assignment operators */
+// =
+let num = 1;
+
+// += (Addition assignment)
+let num = 1;
+num += 5; // num = 6
+// string also can add.
+
+// -= (Subtraction assigment)
+let num = 10;
+num -= 5; // num = 5
+
+// *= (Multiplication assigment)
+let num = 5;
+num *= 2; // num = 10
+
+// /= (Division assignment)
+let num = 10;
+num /= 2; // num = 5
+
+/* Comparison operators */
+// == vs ===
+
+let num = 5; 
+num == '5' // output true
+num === '5' // output false
+
+!= vs !==
+let num = 5; 
+num != '5' // output true
+num !== '5' // output false
+
+// > (greater than) and < (less than)
+let num1 = 2;
+let num2 = 3;
+num1 > num 2; // output false
+ 2 > 3
+num1 < num2 ; // output true
+ 2 < 3
+
+// >= (greater than or equal) and <= (less than or equal)
+let num1 = 2;
+let num2 = 2;
+num1 >= num2; // output false
+ 2 >= 2  
+num1 <= num2; // output true
+ 2 <= 2
+
+
+
+/* Logical operator */
+
+let num 1  = 5;
+let num 2  = 10;
+
+/ && (and logical operator)
+
+num1 > 3 && num2 < 10  && num2 == 10; //false
+ 5 > 3 &&  10 < 10 false
+
+num 1 < 7 && num2 >5;  // true
+
+// || ( or logical operator)
+
+num1 > 3 && num2 < 10 ; //true
+num 1 < 7 && num2 >5;  // false
+num >=5 || num2 <= 10 // true
+
+//! (not logical operator)
+!(num1 === num2) // flase
+!(num1 < num 2) // false
+
+!
+
+

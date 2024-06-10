@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+</head>
+<body>
+  <h1>Calculator</h1>
+  <form>
+    <label for="num1">Enter first number:</label>
+    <input type="number" id="num1" name="num1"><br>
+
+    <label for="num2">Enter second number:</label>
+    <input type="number" id="num2" name="num2"><br>
+
+    <label for="operation">Select operation:</label>
+    <select id="operation" name="operation">
+      <option value="addition">Addition</option>
+      <option value="subtraction">Subtraction</option>
+      <option value="multiplication">Multiplication</option>
+      <option value="division">Division</option>
+    </select><br>
+
+    <button type="button" onclick="calculate()">Calculate</button>
+  </form>
+
+  <p id="result">Answer is here</p>
+
+  <script>
+    function calculate() {
+      // Get the input values
+      let num1 = parseInt(document.getElementById("num1").value);
+      let num2 = parseInt(document.getElementById("num2").value);
+      // Get the selected operation
+      let operation = document.getElementById("operation").value;
+      // Perform the selected operation
+      let result;
+      if (operation === "addition") {
+        result = num1 + num2;
+      } else if (operation === "subtraction") {
+        result = num1 - num2;
+      } else if (operation === "multiplication") {
+        result = num1 * num2;
+      } else if (operation === "division") {
+        result = num1 / num2;
+      }
+      // Display the result
+      document.getElementById("result").innerHTML = "Result : " + result;
+    }
+  
+  </script>
+</body>
+</html>

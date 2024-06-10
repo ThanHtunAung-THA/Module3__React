@@ -1,0 +1,21 @@
+npx create-react-app my-app
+cd my-app
+npm start
+
+
+first need to build component
+component = function 
+function component lo call tl
+
+
+jsx rule
+
+must return single element (cover by div or section or Fragment <> )
+class X className O
+need close /
+formatter
+
+npm install bootstrap
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
